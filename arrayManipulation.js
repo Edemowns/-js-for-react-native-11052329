@@ -8,6 +8,23 @@ function processArray(arr) {
 }
 
 // testing code
-const inputArray = [1, 2, 3, 4, 5,6,7,8];
+const inputArray = [4, 7, 3, 4, 5,6,7,8,9];
 const processedArray = processArray(inputArray);
 console.log(processedArray); 
+
+function formatArrayStrings(stringArray, numberArray){
+    return stringArray.map((str, index) => {
+        if (numberArray[index]% 2 === 0){
+            return str.toUpperCase();
+        }else {
+            return str.toLowerCase();
+    
+        }
+    });
+
+
+    }
+//testing code
+const stringArray = ["Houses", "War", "JavaScript", "is", "awesome", "fish","Cook","Larry"];
+const formattedStrings = formatArrayStrings(stringArray, processedArray);
+console.log(formattedStrings); 
