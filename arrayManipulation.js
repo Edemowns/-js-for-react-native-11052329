@@ -24,7 +24,6 @@ function formatArrayStrings(stringArray, numberArray){
 
 
     }
-//testing code
-const stringArray = ["Houses", "War", "JavaScript", "is", "awesome", "fish","Cook","Larry"];
-const formattedStrings = formatArrayStrings(stringArray, processedArray);
-console.log(formattedStrings); 
+
+    
+module.exports = { processArray, formatArrayStrings };
