@@ -41,7 +41,7 @@ I created an additional file; `test.js` which i use to test my codes and demonst
 
 1. **Clone the repository**:
     ```sh
-    git clone <repository-url>
+    git clone <https://github.com/Edemowns/-js-for-react-native-11052329.git>
     cd <repository-directory>
     ```
 
